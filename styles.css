@@ -313,7 +313,9 @@ html {
     height: 250px;
     width: 250px;
     background: transparent;
-    border: 3px white  solid;
+    background: rgb(247, 244, 244, 0.15);
+
+    border: 5px transparent  solid;
     border-radius: 10px;
     padding-top: 30px;
     padding-left: 30px;
@@ -325,10 +327,6 @@ html {
 
 .servicesbox:hover {
     transform: scale(1.05);
-    background: rgb(247, 244, 244, 0.15);
-    /* color: rgb(73,43,79); */
-    border: 3px solid transparent;
-
 }
 
 
