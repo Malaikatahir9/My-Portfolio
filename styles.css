@@ -459,7 +459,7 @@ textarea.user_input_text::placeholder {
 
 .submit_button {
     margin-top: 10px;
-    background: linear-gradient(to right, #CE9FFC, #7367F0);
+    background: linear-gradient(to right, rgb(255, 255, 255, 0.2)  ,rgb(255, 255, 255, 0.2)); 
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -475,7 +475,6 @@ textarea.user_input_text::placeholder {
 }
 .submit_button:hover {
     transform: scale(1.1);
-    background: linear-gradient(to left, #CE9FFC, #6963ab);
 }
 .forspace {
   height: 10vh;
